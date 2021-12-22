@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cgpa Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header1">Cgpa Calculator</h1>
+        </div>
+        <form id="myform">
+            <label for="current-cgpa" class="labels">Current Cgpa:</label>
+            <input type="number" id="current-cgpa" class="inputs">
+            <label for="current-gpa" class="labels">Current Gpa:</label>
+            <input type="number" id="current-gpa" class="inputs">
+            <label for="semester Number" class="labels">How many semesters completed:</label>
+            <input type="number" id="semester-number" placeholder="e.g input 2 if you are in your second semester" class="inputs">
+            <button id="calculate-cgpa">Calculate Cgpa</button>
+        </form>
+
+        <h2 id="new-cgpa-value"></h2>
+
+        <div class="know-current-gpa">
+            <h1 class="know">Calculate your current gpa for this current semester below</h1>
+            <div id="select-area"></div>
+            <div class="flex">
+                <button id="add-course">Add course</button>
+                <button id="calculate">calculate gpa</button>
+            </div>
+            <p class="" id="cgpa-calc"></p> <br> <br>
+        </div>
+
+    </div>
+
+    <p class="dev">Developed by Ayo-dev</p>
+
+
+
+   
+
+</body>
+<script src="index.js"></script>
+</html>

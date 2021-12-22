@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkorange;
+    font-family: 'Noto Sans Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.header1{
+    text-align: center; 
+    background-color: crimson;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.inputs{
+    width: 100%;
+    padding: .6rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: black;
+    border: 2px solid crimson;
+    display: flex;
+    flex-direction: row;
+}
+
+.labels{
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#calculate-cgpa{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+    outline: none;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+#calculate-cgpa:hover{
+    background-color: tomato;
+}
+
+#calculate-cgpa-value{
+    color: crimson;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+
+
+.know-current-gpa{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid crimson;
+    width: 450px;
+    max-width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.dev{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+
+.know{
+    margin: 2rem 0;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.add_new{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#select-area{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.credit-units,.courses,.grade{
+    padding: .5rem;
+    font-family: 1rem;
+    margin:  1rem;
+    border: none;
+    outline: crimson;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#cgpa-calc{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#add-course{
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    margin: 2rem 3rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: block;
+    font-weight: bold;
+    background-color: crimson;
+    color: white;
+}
+
+#calculate{
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    margin: 2rem 3rem;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: crimson;
+    font-size: 1rem;
+    display: block;
+}

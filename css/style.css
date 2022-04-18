@@ -6,17 +6,12 @@
 
 body{
     background-color: darkorange;
-    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     padding: 2.5rem;
     align-items: center;
     justify-content: center;
-}
-
-.container{
-    max-width: 100%;
-    width: 500px;
 }
 
 .header1{
@@ -105,7 +100,7 @@ body{
 .add_new{
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -164,4 +159,10 @@ body{
     background-color: crimson;
     font-size: 1rem;
     display: block;
+    outline: none;
+}
+
+.container{
+    width: 600px;
+    max-width: 100%;
 }

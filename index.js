@@ -72,6 +72,7 @@ function gradeCalc(grade, unit) {
         <option value="0">F</option>
       </select>  
       <button class="remove" >remove course</button>
+      </br> </br>
     </form>
     `;
     addNew.innerHTML = course_name;
